@@ -2,6 +2,7 @@
     "name": "ns/kunstmaan-node-bundle",
     "type": "symfony-bundle",
     "description": "This bundle provides overrides to the Kunstmaan Node bundle",
+    "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
         {
@@ -14,8 +15,7 @@
         "kunstmaan/node-bundle": "2.3.*"
     },
     "autoload": {
-        "psr-4": { "NS\\KunstmaanNodeBundle": "src" }
-    },
-    "target-dir": "NS/KunstmaanNodeBundle"
+        "psr-4": { "NS\\KunstmaanNodeBundle\\": "src" }
+    }
 }
 
