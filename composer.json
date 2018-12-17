@@ -1,0 +1,21 @@
+{
+    "name": "ns/kunstmaan-node-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle provides overrides to the Kunstmaan Node bundle",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mark Woynarski",
+            "email": "mark.woynarski@nobletdesign.com"
+        }
+    ],
+
+    "require": {
+        "kunstmaan/node-bundle": "2.3.*"
+    },
+    "autoload": {
+        "psr-4": { "NS\\KunstmaanNodeBundle": "src" }
+    },
+    "target-dir": "NS/KunstmaanNodeBundle"
+}
+
